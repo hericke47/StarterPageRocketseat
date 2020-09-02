@@ -1,0 +1,72 @@
+import styled from 'styled-components';
+import { BiArrowBack } from 'react-icons/bi';
+import { FiUserPlus } from 'react-icons/fi';
+import { AiFillBell } from 'react-icons/ai';
+
+
+export const Container = styled.div`
+  position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    box-shadow: rgb(18, 18, 20) 0px 1rem 2rem;
+    padding: 0px 30px;
+    background: rgb(32, 32, 36);
+    transition: all 0.5s ease-in-out 0s;
+`;
+
+export const BackToDashboard = styled.div`
+
+  display: flex;
+  align-items: center;
+
+  > img {
+    width: 250px;
+  }
+`;
+
+export const BackIcon = styled(BiArrowBack)`
+  color: white;
+  width: 20px;
+  height: 20px;
+  margin-left: 50px;
+`;
+
+export const TextIcon = styled.p`
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 15px;
+`;
+
+export const User = styled.div`
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #fff;
+
+  > img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #7159c1;
+  }
+`;
+
+export const NameUser = styled.h1`
+  margin-right: 15px;
+  font-size: 20px;
+`;
+
+export const UserIcon = styled(FiUserPlus)`
+  width: 60px;
+  height: 25px;
+`;
+
+export const BellIcon = styled(AiFillBell)`
+  width: 60px;
+  height: 25px;
+`;
