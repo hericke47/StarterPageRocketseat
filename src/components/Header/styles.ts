@@ -4,17 +4,26 @@ import { FiUserPlus } from 'react-icons/fi';
 import { AiFillBell } from 'react-icons/ai';
 
 
-export const Container = styled.div`
-  position: fixed;
+export const HeaderStarter = styled.div`
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
     width: 100%;
-    height: 80px;
-    box-shadow: rgb(18, 18, 20) 0px 1rem 2rem;
+    height: 72px;
     padding: 0px 30px;
     background: rgb(32, 32, 36);
+    z-index: 9998;
     transition: all 0.5s ease-in-out 0s;
+    box-shadow: rgb(18, 18, 20) 0px 1rem 2rem;
+`;
+
+export const Container = styled.div`
+    width: 100%;
+    max-width: 1366px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    padding: 12px 0px;
 `;
 
 export const BackToDashboard = styled.div`

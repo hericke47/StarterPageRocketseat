@@ -1,28 +1,30 @@
 import React from 'react';
 
-import { Container, BackToDashboard, User, NameUser, BackIcon, TextIcon, UserIcon, BellIcon } from './styles';
+import { HeaderStarter, Container, BackToDashboard, User, NameUser, BackIcon, TextIcon, UserIcon, BellIcon} from './styles';
 import rocket from '../../assets/rocket.svg';
 import space from '../../assets/space.jpg';
 
 const Header: React.FC = () => {
   return  (
-    <Container>
-      <BackToDashboard>
-        <img src={rocket} alt="rocket"/>
+    <HeaderStarter>
+      <Container>
+        <BackToDashboard>
+          <img src={rocket} alt="rocket"/>
 
-        <BackIcon />
-        <TextIcon>Voltar</TextIcon>
-      </BackToDashboard>
+          <BackIcon />
+          <TextIcon>Voltar</TextIcon>
+        </BackToDashboard>
 
-      <User>
-        <UserIcon />
-        <BellIcon />
+        <User>
+          <UserIcon />
+          <BellIcon />
 
-        <NameUser>DevSpace</NameUser>
+          <NameUser>DevSpace</NameUser>
 
-        <img src={space} alt="space"/>
-      </User>
-    </Container>
+          <img src={space} alt="space"/>
+        </User>
+      </Container>
+    </HeaderStarter>
   )
 }
 
