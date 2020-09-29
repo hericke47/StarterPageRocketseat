@@ -1,12 +1,13 @@
 import React from 'react';
 
 import GlobalStyles from '../src/styles/GlobalStyles';
-import Header from '../src/components/Header';
+import Dashboard from './pages/Dashboard';
+
 
 function App() {
   return (  
     <>
-      <Header />
+      <Dashboard />
       <GlobalStyles />
     </>
   );
