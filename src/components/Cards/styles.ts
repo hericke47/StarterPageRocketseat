@@ -16,7 +16,7 @@ export const Navigation = styled.nav`
 export const Card = styled.a`
 
     :hover {
-      background:rgb(41, 41, 46);;
+      background:rgb(41, 41, 46);
       transition: background 0.2s ease 0s;
     }
     max-width: 200px;
