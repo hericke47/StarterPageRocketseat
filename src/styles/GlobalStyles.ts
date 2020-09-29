@@ -12,6 +12,11 @@ export default createGlobalStyle`
     background: rgb(18, 18, 20);
   }
 
+  html {
+    font-size: 62.5%; /* 1rem = 10px */
+    height: 100%;
+  }
+
   *, button, input {
     border: 0;
     outline: 0;
