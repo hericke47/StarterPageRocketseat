@@ -17,10 +17,10 @@ const Dashboard: React.FC = () => {
           <h1>Conteúdo disponível</h1>
           <Wrapper>
             <Cards img={js} tech="Javascript" color="rgb(246, 218, 58)" />
-            <Cards img={es6} tech="Javascript" color="rgb(225, 111, 60)" />
-            <Cards img={nodejs} tech="Javascript"  color="rgb(140, 200, 75)" />
-            <Cards img={reactjs} tech="Javascript" color="rgb(42, 199, 227)"  />
-            <Cards img={reactnative} tech="Javascript" color="rgb(86, 103, 249)" />
+            <Cards img={es6} tech="ES6" color="rgb(225, 111, 60)" />
+            <Cards img={nodejs} tech="NodeJS"  color="rgb(140, 200, 75)" />
+            <Cards img={reactjs} tech="ReactJS" color="rgb(42, 199, 227)"  />
+            <Cards img={reactnative} tech="React Native" color="rgb(86, 103, 249)" />
           </Wrapper>
       </Container>
     </>

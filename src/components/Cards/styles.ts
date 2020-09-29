@@ -14,6 +14,11 @@ export const Navigation = styled.nav`
 `;
 
 export const Card = styled.a`
+
+    :hover {
+      background:rgb(41, 41, 46);;
+      transition: background 0.2s ease 0s;
+    }
     max-width: 200px;
     max-height: 195px;
     background: #202024;
@@ -30,7 +35,7 @@ export const Card = styled.a`
     > h1 {
       color: #fff;
       font-size: 24px;
-      margin-top: 12px;
+      margin-top: 24px;
     }
    
     > img {
