@@ -1,44 +1,76 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  Clone Da Starter Page da Rocketseat
+</h1>
 
-## Available Scripts
+<h1 align="center">
+    <img alt="Rocket" src="./.github/rocket.svg"/>
+    <br>
+</h1>
 
-In the project directory, you can run:
+## :rocket: Sobre o Projeto
 
-### `yarn start`
+A proposta foi desenvolver uma interface igual a Starter Page da Rocketseat
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Link para testar o Projeto
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8737e41c-5d26-4862-a04b-afe0ffdbb4cc/deploy-status)](https://app.netlify.com/sites/starterpagerocketseat/deploys)
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Imagem do projeto
 
-### `yarn build`
+<img alt="Rocket" src="./.github/projeto.png"/>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 👨‍💻️ Tecnogias utilizadas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-### `yarn eject`
+- [ReactJS](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Para copiar o projeto, utilize os comandos:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+  # Clonar o repositório
+  ❯ git clone https://github.com/hericke47/Discord-Clone.git
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  # Entrar no diretório
+  ❯ cd Discord-Clone
+```
+Para instalar as dependências e iniciar o projeto, você pode utilizar o Yarn ou NPM:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Utilizando yarn**
 
-## Learn More
+```bash
+  # Instalar as dependências
+  ❯ yarn
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  # Iniciar o projeto
+  ❯ yarn start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Utilizando npm**
+
+*PS: Caso utilize o NPM, apaque o arquivo `yarn.lock` para ter todas as dependências instaladas da melhor forma.*
+
+```bash
+  # Instalar as dependências
+  ❯ npm install
+
+  # Iniciar o projeto
+  ❯ npm start
+```
+
+---
+
+## 🤔️ Como contribuir
+
+1. Faça o `fork` deste repositório
+2. Crie uma branch com sua feature:
+   - `$ git checkout -b minha_feature`
+3. Confirme sua branch:
+   - `$ git commit -m "feature: Meu novo recurso"`
+4. Envie sua branch:
+   - `$ git push origin minha_feature`
+
+---
