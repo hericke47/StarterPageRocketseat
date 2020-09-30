@@ -32,7 +32,8 @@ export const BackToDashboard = styled.div`
   align-items: center;
 
   > img {
-    width: 250px;
+    width: 192px;
+    height: 37px;
   }
 `;
 
@@ -43,10 +44,15 @@ export const BackIcon = styled(BiArrowBack)`
   margin-left: 50px;
 `;
 
+export const Back = styled.a`
+  display: flex;
+  align-items: center;
+`;
+
 export const TextIcon = styled.p`
   color: #fff;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 14px;
   margin-left: 15px;
 `;
 
