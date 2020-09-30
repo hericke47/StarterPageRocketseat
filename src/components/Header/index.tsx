@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { HeaderStarter, Container, BackToDashboard, User, NameUser, BackIcon, TextIcon, UserIcon, BellIcon} from './styles';
+import { HeaderStarter, Container, BackToDashboard, User, NameUser, BackIcon, TextIcon, UserIcon, BellIcon, Back} from './styles';
 import rocket from '../../assets/rocket.svg';
 import space from '../../assets/space.jpg';
 
@@ -11,8 +11,10 @@ const Header: React.FC = () => {
         <BackToDashboard>
           <img src={rocket} alt="rocket"/>
 
-          <BackIcon />
-          <TextIcon>Voltar</TextIcon>
+          <Back href="#">
+            <BackIcon />
+            <TextIcon>Voltar</TextIcon>
+          </Back>
         </BackToDashboard>
 
         <User>
