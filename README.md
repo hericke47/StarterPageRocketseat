@@ -32,10 +32,10 @@ Para copiar o projeto, utilize os comandos:
 
 ```bash
   # Clonar o repositório
-  ❯ git clone https://github.com/hericke47/Discord-Clone.git
+  ❯ git clone https://github.com/hericke47/StarterPageRocketseat.git
 
   # Entrar no diretório
-  ❯ cd Discord-Clone
+  ❯ cd StarterPageRocketseat
 ```
 Para instalar as dependências e iniciar o projeto, você pode utilizar o Yarn ou NPM:
 
