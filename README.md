@@ -13,7 +13,7 @@ A proposta foi desenvolver uma interface igual a Starter Page da Rocketseat
 
 ## Link para testar o Projeto
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8737e41c-5d26-4862-a04b-afe0ffdbb4cc/deploy-status)](https://app.netlify.com/sites/starterpagerocketseat/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8737e41c-5d26-4862-a04b-afe0ffdbb4cc/deploy-status)](https://starterpagerocketseat.netlify.app)
 
 
 ## Imagem do projeto
